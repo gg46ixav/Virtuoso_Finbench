@@ -5,7 +5,7 @@
 --
 --  Add all files that end in .nt
 --
-ld_dir_all ('data', '*.nt', 'finbench_graph')
+ld_dir_all ('import', '*.nt', 'finbench_graph')
 ;
 
 
