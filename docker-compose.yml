@@ -7,8 +7,8 @@ services:
       - ./scripts:/opt/virtuoso-opensource/initdb.d
     environment:
       - DBA_PASSWORD=mysecret
-      - VIRT_PARAMETERS_NUMBEROFBUFFERS=680000
-      - VIRT_PARAMETERS_MAXDIRTYBUFFERS=500000
+      - VIRT_PARAMETERS_NUMBEROFBUFFERS=1360000
+      - VIRT_PARAMETERS_MAXDIRTYBUFFERS=1000000
     ports:
       - "1111:1111"
       - "8890:8890"
